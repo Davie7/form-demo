@@ -13,10 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      home: MyHomePage(
-        title: 'Form Demo',
-      ),
+      title: 'Form Demo',
+      home: MyHomePage(),
     );
   }
 }
